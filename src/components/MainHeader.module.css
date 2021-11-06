@@ -1,0 +1,22 @@
+.header {
+  background-color: rgb(37, 14, 14);
+  border: 2px white solid;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+a,
+li {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+a:hover,
+a:active,
+a.active {
+  color: rgb(156, 156, 212);
+  text-decoration: underline;
+  font-style: italic;
+}
