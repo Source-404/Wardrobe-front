@@ -1,7 +1,8 @@
 import { Routes, Route } from "react-router-dom";
 import Welcome from "./pages/Welcome";
-import Products from "./pages/Products";
 import MainHeader from "./components/MainHeader";
+import ProductDetails from "./pages/ProductDetails";
+import ProductsPage from "./pages/ProductsPage";
 
 function App() {
   return (
@@ -10,9 +11,13 @@ function App() {
         <MainHeader />
       </>
       <Routes>
+        <Route exact path="/" element={<h1>Hello</h1>} />
+
         <Route path="/welcome" element={<Welcome />} />
 
-        <Route path="/products" element={<Products />} />
+        <Route path="/products" element={<ProductsPage />} />
+
+        <Route path="/products/:productId" element={<ProductDetails />} />
       </Routes>
     </div>
   );

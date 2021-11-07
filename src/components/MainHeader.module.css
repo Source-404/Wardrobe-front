@@ -2,7 +2,7 @@
   background-color: rgb(37, 14, 14);
   border: 2px white solid;
 }
-ul {
+.header ul {
   list-style: none;
   display: flex;
   justify-content: space-around;
