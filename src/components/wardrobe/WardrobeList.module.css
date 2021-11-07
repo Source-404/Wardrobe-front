@@ -1,7 +1,6 @@
-.container {
-  width: 30rem;
-  margin: auto;
-  border: white 2px solid;
+.productsList {
+  list-style: none;
+  padding: 0;
 }
 
 .action {

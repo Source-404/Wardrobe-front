@@ -2,3 +2,21 @@
   list-style: none;
   padding: 0;
 }
+
+.action {
+  margin-top: 0.5rem;
+  padding: 12px;
+  text-align: end;
+}
+
+.action button {
+  font: inherit;
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  background-color: #38015c;
+  color: white;
+  border: 1px solid #38015c;
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
