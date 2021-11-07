@@ -1,0 +1,25 @@
+.displayBox {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 8rem;
+}
+
+.displayBox h1 {
+  font-size: 250%;
+}
+
+.displayBox button {
+  height: 35vh;
+  width: 35%;
+  background-color: rgb(71, 24, 8);
+  color: white;
+  border-radius: 12px;
+  box-shadow: 4px 8px black;
+  border: black 2px solid;
+  transition: 0.4s;
+}
+
+.displayBox button:hover {
+  background-color: rgb(114, 37, 9);
+  transform: scale(1.2);
+}

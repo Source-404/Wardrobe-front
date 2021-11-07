@@ -6,7 +6,7 @@ import classes from "./ProductsPage.module.css";
 const ProductsPage = () => {
   return (
     <section>
-      <h1>Display User Query here</h1>
+      <h1>Sports Academy Wardrobe</h1>
 
       <div className={classes.displayBox}>
         <Products />

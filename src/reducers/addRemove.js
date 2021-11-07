@@ -1,8 +1,8 @@
 const intialState = [
   {
-    ids: 4,
-    name: "tie",
-    price: "449",
+    ids: 99,
+    name: "WARDROBE",
+    price: "000",
   },
 ];
 

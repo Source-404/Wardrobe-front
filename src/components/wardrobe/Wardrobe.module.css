@@ -1,6 +1,7 @@
 .container {
   width: 30rem;
   margin: auto;
+  border: white 2px solid;
 }
 
 .action {
